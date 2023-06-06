@@ -11,6 +11,7 @@ import guitarist from "./animations/guitarist.json";
 import webdev from "./animations/webdev.json";
 import dataanalysis from "./animations/dataanalysis.json";
 import profile from "./animations/profile.json";
+import laptop from "./animations/laptop.json";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
         <Card title={"Nintendo Switch."} text={"Test with Lottie"} animationData={nintendoSwitch}/>
         <Card title={"Playstation 5."} text={"Test with Lottie"} animationData={ps5}/>
         <Card title={"Guitarist."} text={"Test with Lottie"} animationData={guitarist}/>
+        <Card title={"Laptop"} text={"Test with Laptop"} animationData={laptop}/>
       </div>
       <p className='font-bold'>dev by Ricky A.</p>
     </div>
